@@ -19,7 +19,7 @@ namespace DotNetCoreRestAPI.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
-            dbContextOptionsBuilder.UseMySql("server=localhost;port=3306;database=PatientData;user=root;password=password");
+            dbContextOptionsBuilder.UseMySql("server=localhost;port=3306;database=PatientDatabase;user=root;password=password");
         }
     }
 }
